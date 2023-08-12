@@ -1,0 +1,451 @@
+@font-face {
+    font-family: afternoon-in-stereo-personal-us regular;
+    src: url(fonts/afternoon-in-stereo-personal-us.regular.ttf);
+}
+
+@font-face {
+    font-family: AveriaSerifLibre-Bold;
+    src: url(fonts/AveriaSerifLibre-Bold.ttf);
+}
+
+@font-face {
+    font-family: AveriaSerifLibre-Light;
+    src: url(fonts/AveriaSerifLibre-Light.ttf);
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.my-container{
+    /* background-color: violet; */
+    width: 100vw;
+    height: 100vh;
+    /* overflow-x: hidden; */
+ 
+}
+.nav-link{
+    margin-right: 40px;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    /* height: 100%; */
+    overflow: hidden;
+    font-family: AveriaSerifLibre-Light;
+}
+.navbar-brand{
+    color: blue;
+    font-weight: 600;
+    font-size: 30px;
+}
+.navbar-nav .nav-link{
+    color: black ;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar .container-fluid .navbar-brand{
+    color: black;
+    margin-left: 60px;
+    letter-spacing: 2px;
+}
+.logo-name{
+    color: blue !important;
+    font-weight: bolder;
+    font-size: 30px;
+    border-left: 9px solid blue;
+
+}
+.logo-nav{
+    color: blue !important;
+}
+
+.my-head{
+    background-color: royalblue;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed-top;
+}
+
+.my-header{
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.section-1{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-image: url(image.jpg); */
+    /* background-size: cover; */
+}
+
+.section-nav{
+    width: 100%;
+    /* height: 12%; */
+    /* background-color: violet; */
+}
+
+.bg-image{
+    background-image: url(image.jpg);
+    height: 100% !important;
+    width: 100% !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.mask{
+    background-color: gainsboro;opacity: 0.7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-white .mb-3{
+    overflow: hidden;
+    color: blue;
+    font-weight: bolder;
+    font-family: Times New Roman;
+}
+.my-small{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.my-work{
+    color: black;
+    font-size: 18px;
+    overflow: hidden;
+}
+.section-2{
+    /* background-color: brown; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-content{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-content .display-5 {
+    font-weight: 600;
+    overflow: hidden;
+    text-decoration: underline ;
+    font-family: afternoon-in-stereo-personal-us regular;
+
+}
+
+.text-content  .lead{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Calibri;
+    /* color: white; */
+
+}
+
+.my-card{
+    /* background-color: deeppink; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    /* background-color: lime !important; */
+    width: 29% !important;
+    height: 70% !important;
+    text-align: center !important;
+  
+}
+
+.card:hover{
+    background-color: blue;
+    width: 29%;
+    height: 90%;
+}
+
+.bi{
+    background-color: blue;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: 11px 5px 5px royalblue;
+    border-radius: 5px;
+    
+}
+.heart{
+    background-color: blue;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    /* box-shadow: 11px 5px 5px royalblue; */
+    border-radius: 30px dashed;
+}
+
+.my-icon{
+    /* background-color: peru; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px dashed; */
+    /* border-radius: 30px; */
+}
+.card-body{
+    /* background-color: coral; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-title{
+    font-size: 26px !important;
+    /* overflow: hidden; */
+    font-family:  Brush Script Mt, Calibri;
+}
+
+.card-text{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-3{
+    background-color: royalblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-content{
+    /* background-color: blue; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* overflow: hidden; */
+    
+}
+
+.display-4{
+    font-weight: 600 !important;
+    text-decoration: underline;
+    font-size: 40px !important;
+    overflow: hidden;
+    /* background-color: #1ABC9C; */
+    width: 50%;
+    height: 100%;
+    font-family: afternoon-in-stereo-personal-us regular;
+
+
+}
+.blockquote{
+    /* background-color: #1ABC9C; */
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+.card-content{
+    height: 80%;
+    width: 80%;
+    /* background-color: lime; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.small{
+    color: gray;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.section-4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-5{
+    background-color: royalblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30%;
+}
+.my-body{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+}
+.add{
+    font-size: 20px;
+}
+.section-6{
+    background-color: white;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.phone{
+    overflow: hidden;
+}
+.footer1{
+    /* background-color: tomato; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.user{
+    font-weight: 600;
+    color: black;
+    font-family: AveriaSerifLibre-Bold;
+    
+}
+
+.use{
+    font-weight: 600;
+    color: black;
+    font-size: 28px;
+}
+.us{
+    font-weight: 600;
+    font-size: 27px;
+}
+.list{
+    /* background-color: red; */
+    width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    flex-direction: column;
+    font-family: Lucida Calligraphy;
+}
+.copy-div{
+    width: 100%;
+    height: 20%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lucida Calligraphy;
+}
+
+.mycopy{
+    font-size: 25px;
+    color: white;
+    /* font-weight: 600; */
+    
+}
+.email{
+    font-family: Lucida Callligraphy Calibri;
+}
